@@ -1,7 +1,9 @@
 ember-three
 ==============================================================================
 
-[Short description of the addon.]
+[![npm version](https://badge.fury.io/js/ember-three.svg)](https://badge.fury.io/js/ember-three)
+
+Ember.js three.js shim
 
 Installation
 ------------------------------------------------------------------------------
