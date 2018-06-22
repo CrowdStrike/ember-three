@@ -2,6 +2,7 @@ ember-three
 ==============================================================================
 
 [![npm version](https://badge.fury.io/js/ember-three.svg)](https://badge.fury.io/js/ember-three)
+[![Build Status](https://travis-ci.org/CrowdStrike/ember-three.svg?branch=master)](https://travis-ci.org/CrowdStrike/ember-three)
 
 Ember.js three.js shim
 
