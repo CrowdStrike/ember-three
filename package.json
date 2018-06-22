@@ -1,13 +1,13 @@
 {
   "name": "ember-three",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember.js three.js shim",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/CrowdStrike/ember-three.git",
   "license": "MIT",
-  "author": "",
+  "author": "Kelly Selden",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -45,7 +45,8 @@
     "ember-try": "^0.2.23",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^6.0.1",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "three": "^0.93.0"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
