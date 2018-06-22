@@ -17,7 +17,14 @@ ember install ember-three
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+```js
+import Controller from '@ember/controller';
+import THREE from 'three';
+
+export default Controller.extend({
+  THREE
+});
+```
 
 
 Contributing
