@@ -45,3 +45,9 @@ script:
   # Usually, it's ok to finish the test scenario without reverting
   #  to the addon's original dependency state, skipping "cleanup".
   - node_modules/.bin/ember try:one $EMBER_TRY_SCENARIO --skip-cleanup
+
+deploy:
+  api_key:
+    secure: bkzJcM2ETNZH8voIlEWoy9y8xNiji2yJm3B5oH4NwHfMsOOzS/JSs1YvNIl1THK57S74dvelRiAXIaf1eLB7hzLAEQxWsPFYFdDazqJGwDBnphZ6OOtaLRwayoLQOxK423ow7vcTgulOs5Sc9P0RRdnKeTEN1Dg4FTQ5vCSs0jEMVuJUT9qXXa38y3MNk92Fu4IkLR/N/L/RUeoXf0Tni+QuTjHyqETfLz2ZV7DmcMCbnMJ21qapg02tU/kpkr5IKkuPSDqDxb87a9IuX+XOW5TWpSMSjIap1hfiNi3NkqLkHjUi3xH4r4yD/BL+eXOI064ugx9fcgaeXByj7EGbYoVWmrwvtPAv6eRP95CxwD0rW8UVu/Mdaf6mHqneTnUaJ6hLO3hG64gokLp54bW0g1sC63FwFEJgLykTKw5NnbPWaypalgaaSLrz+omSVyHPkrbknx/ikGC6cJJs82FGtmTqzNo2XG3MGV2IJkW2Or9aQZh2qQmFcy6LfqAiJh5ATT9FE/h2Kgp6O0PGrB7fznpBNBYKy+hMtNaIM/p07fKMNimiZDzZMIrZTGQmI4xfGPpdWwH2zIJtp6FZvJuU9B0ZFryS1y5JHi0Wm2oESm0RUYqZPT7bU+Uq7S7Nl6cQzX2QcgdMoDYGP1a/fbaumsvC1/fSWcMGX803k7AvPcA=
+  on:
+    tags: true
