@@ -10,5 +10,5 @@ module.exports = {
       using: [{ transformation: 'amd', as: 'three' }],
       prepend: true
     });
-  },
+  }
 };
