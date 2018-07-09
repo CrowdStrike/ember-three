@@ -19,6 +19,9 @@
     "test": "ember test",
     "test:all": "ember try:each"
   },
+  "dependencies": {
+    "pkg-conf": "^2.1.0"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
@@ -54,8 +57,5 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "dependencies": {
-    "pkg-conf": "^2.1.0"
   }
 }
