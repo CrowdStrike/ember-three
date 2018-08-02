@@ -20,7 +20,8 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "pkg-conf": "^2.1.0"
+    "pkg-conf": "^2.1.0",
+    "resolve": "^1.8.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
