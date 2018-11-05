@@ -63,6 +63,14 @@ module.exports = function() {
           npm: {
             devDependencies: {}
           }
+        },
+        {
+          name: 'three-min',
+          npm: {
+            devDependencies: {
+              "three": "0.93.0"
+            }
+          }
         }
       ]
     };
