@@ -1,13 +1,8 @@
 import { module, test } from 'qunit';
-import { visit, find } from '@ember/test-helpers';
-import { setupApplicationTest } from 'ember-qunit';
+import THREE from 'three';
 
-module('Acceptance | index', function(hooks) {
-  setupApplicationTest(hooks);
-
-  test('visiting /', async function(assert) {
-    await visit('/');
-
-    assert.notEqual(find('#revision').textContent, '');
+module('Acceptance | index', function() {
+  test('import works', function(assert) {
+    assert.ok(THREE.REVISION);
   });
 });
