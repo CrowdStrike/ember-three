@@ -81,7 +81,7 @@ module.exports = function() {
           name: 'three-min',
           npm: {
             devDependencies: {
-              "three": "0.93.0"
+              "three": require('semver').minVersion(require('../package').peerDependencies['three']).version
             }
           }
         }

@@ -43,6 +43,7 @@
     "eslint-plugin-ember": "^5.2.0",
     "eslint-plugin-node": "^7.0.1",
     "loader.js": "^4.7.0",
+    "semver": "^6.1.1",
     "three": "^0.105.2"
   },
   "peerDependencies": {
