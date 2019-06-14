@@ -21,8 +21,7 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "pkg-conf": "^3.1.0",
-    "resolve": "^1.8.1"
+    "pkg-conf": "^3.1.0"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
