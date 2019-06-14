@@ -1,9 +1,8 @@
 module.exports = {
   normalizeEntityName() {},
 
-  afterInstall() {
-    return require('pkg-conf')('peerDependencies').then(peerDependencies => {
-      return this.addPackageToProject('three', peerDependencies['three']);
-    });
+  async afterInstall() {
+    let peerDependencies = await require('pkg-conf')('peerDependencies');
+    return await this.addPackageToProject('three', peerDependencies['three']);
   }
 };
