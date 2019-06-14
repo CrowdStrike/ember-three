@@ -20,9 +20,6 @@
     "test": "ember test",
     "test:all": "ember try:each"
   },
-  "dependencies": {
-    "pkg-conf": "^3.1.0"
-  },
   "devDependencies": {
     "@ember/optional-features": "^0.7.0",
     "ember-cli": "~3.10.1",

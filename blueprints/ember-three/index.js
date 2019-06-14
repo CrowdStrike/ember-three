@@ -1,8 +1,10 @@
+'use strict';
+
 module.exports = {
   normalizeEntityName() {},
 
   async afterInstall() {
-    let peerDependencies = await require('pkg-conf')('peerDependencies');
+    let { peerDependencies } = require('../../package');
     return await this.addPackageToProject('three', peerDependencies['three']);
   }
 };
