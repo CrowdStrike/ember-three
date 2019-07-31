@@ -39,6 +39,7 @@
     "eslint-plugin-ember": "^6.2.0",
     "eslint-plugin-node": "^9.0.1",
     "loader.js": "^4.7.0",
+    "renovate-config-standard": "^2.0.0",
     "semver": "^6.1.1",
     "three": "^0.105.2"
   },
