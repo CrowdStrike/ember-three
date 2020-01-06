@@ -58,8 +58,7 @@ script:
 deploy:
   provider: npm
   email: kelly.selden@crowdstrike.com
-  api_key:
-    secure: D5dULorg6RzNL0yn1tpFn2D3rbfiRa8ws5Qndztel03Hs06mYoIim2DVA96n5oZlTawMRnxY7AMV0UJ00kuyXKdVr/Li1ygTICnHon+IMzz6gFqZ0G14wAcEseXaQuenDWP+Eh+NwSbTQWveKRYXDu5tcAqsjFlJTauh1PusKpD6bmi8sPxYPKnBt8VWT52rTCJuXuqwmJHCNgHH43sE+oNjKyL5m/yOy/fOl0EQI7pOp3C3MwKLCJFAvKS0kfMGBnZjHBmEjto/ONKu/nVCDyaMe5iP3dQn7tb0n7anFBRzg1hlbr389rXxWCcYj+ZTybLJ+saTB/T89nGBTVT6Em4ZJsv0eAyOJ0f+JiBhFf4+YfLaRbp501wS/Oq9JvD8j1OQirS+8erOOcunoBT4/xYxexnRICgZTVCfZ9HVDBVEy5FZVfLXE1aqGfgDb05ifAajraCPR/xsC0XIdeb5SNYgqroxaiam0NuPt7XQ+U+7GZFHUyxaRHv0ppxgDKFIL3ZRHtJF5b6loswOf5Qfc94fBoN2Bk/VBxd14mwT7pQTFwOy3zzaa/Lk2mgWo9eUlHcv5AMz+yeY7+/tU2oX8mpusa8nJbLi2Cgg5gWvpHyOPhB6Q9H8UF2tRlGqUkS4THMHV4Pg44ppzKYg4A2gB8Qza9Mdo3SQvOJWW+NmG1U=
+  api_key: $NPM_TOKEN
   on:
     tags: true
     repo: CrowdStrike/ember-three
