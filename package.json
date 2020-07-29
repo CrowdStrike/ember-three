@@ -42,7 +42,7 @@
     "loader.js": "^4.7.0",
     "renovate-config-standard": "^2.0.0",
     "semver": "^6.1.1",
-    "three": "^0.118.0"
+    "three": "^0.119.0"
   },
   "peerDependencies": {
     "three": ">= 0.93.0"
