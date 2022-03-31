@@ -43,7 +43,7 @@
     "eslint-plugin-node": "^11.0.0",
     "loader.js": "^4.7.0",
     "renovate-config-standard": "^2.0.0",
-    "semver": "^6.1.1",
+    "semver": "^7.0.0",
     "three": "0.137.2"
   },
   "peerDependencies": {
